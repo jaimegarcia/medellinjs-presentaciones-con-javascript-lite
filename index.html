@@ -1,0 +1,17 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><title>Como hacer presentaciones con Javascript Lite</title><link rel="stylesheet" type="text/css" href="bower_components/prism/themes/prism-tomorrow.css"><link rel="stylesheet" type="text/css" href="styles/main.css"><link rel="stylesheet" type="text/css" href="bower_components/nvd3/nv.d3.css"><link rel="stylesheet" type="text/css" href="styles/bespoke-spotlight.css"></head><body><article><section class="green"><h1>Cómo hacer presentaciones geniales con HTML, CSS y Javascript</h1></section><section class="solido"><div class="tint"><h1>Jaime Andrés García</h1><h2>CEO - Ingenio Sólido</h2><a href="http://www.ingeniosolido.com">http://www.ingeniosolido.com</a><br><a href="http://twitter.com/JaimeAGarciaM">@JaimeAGarciaM</a></div></section><section class="lazy"><div class="tint"><h1>Soy flojo</h1></div></section><section class="love"><div class="tint"><h1>Me gusta programar</h1></div></section><section class="hate"><div class="tint"><h1>Odio las aplicaciones de ofimática</h1></div></section><section class="violet"><h1>Por mi trabajo ... debo realizar presentaciones frecuentamente</h1></section><section class="how"><div class="tint"><h1>Qué puedo hacer?</h1></div></section><section class="white"><h1>The Partners for Laziness</h1></section><section><h2>Pre-requisitos y Presentación Base</h2><code class="language-bash"><pre>sudo npm install -g yo
+sudo npm install -g yo generator-bespoke
+git clone ....
+cd medellinjs-presentaciones-con-javascript
+yo bespoke
+sudo npm install
+grunt server
+cd src
+mkdir img
+</pre></code></section><section><h2>Márgenes de la Presentación - Opcional</h2><code class="language-css"><pre>slide_width = 100%
+slide_height = 100%
+.bespoke-slide
+  top: 0
+  margin-top: 0
+  left: 0
+  margin-left: 0
+  </pre></code></section><section class="white"><h2>Agregando diapositiva con gráfica interactiva</h2><div id="chart"><svg style="height:400px;width:700px"></svg></div></section></article><script src="bower_components/bespoke.js/dist/bespoke.min.js"></script><script src="bower_components/bespoke-bullets/dist/bespoke-bullets.min.js"></script><script src="bower_components/bespoke-scale/dist/bespoke-scale.min.js"></script><script src="bower_components/bespoke-hash/dist/bespoke-hash.min.js"></script><script src="bower_components/bespoke-progress/dist/bespoke-progress.min.js"></script><script src="bower_components/bespoke-state/dist/bespoke-state.min.js"></script><script src="bower_components/bespoke-forms/dist/bespoke-forms.min.js"></script><script src="bower_components/prism/prism.js"></script><script src="bower_components/d3/d3.min.js"></script><script src="bower_components/nvd3/nv.d3.min.js"></script><script src="scripts/linechart.js"></script><script src="scripts/bespoke-spotlight.min.js"></script><script src="scripts/main.js"></script></body></html>
