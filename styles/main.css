@@ -286,6 +286,9 @@ section.magenta {
 section.white {
   background-color: #fff;
 }
+section.white img {
+  width: 20%;
+}
 section.solido {
   background-image: url("../img/fondo-isolido.png");
   -webkit-background-size: cover;
